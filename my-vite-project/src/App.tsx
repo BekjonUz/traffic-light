@@ -8,7 +8,7 @@ useEffect(() => {
   const interval = setInterval(() => {
     setTime(prevTime => {
       if (prevTime <= 0) {
-        setCount(prevCount=>prevCount++);
+        setCount(prevCount => prevCount + 1);
         return 10;
       }
       return prevTime - 1;
