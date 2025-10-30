@@ -21,7 +21,7 @@ useEffect(() => {
     <div className="w-[1200px] mx-auto mt-[1rem]">
       <div className="flex items-start">
         <div className="flex items-center">
-        <div className="flex flex-col bg-[#000] p-[1rem] gap-[0.3rem]">
+        <div className="flex flex-col rounded-2xl bg-gray-800 p-[1rem] gap-[0.3rem]">
         {
         count%2===0 ?<div className="bg-red-500 w-[100px] h-[100px] flex justify-center items-center text-white rounded-[50%]"></div>:<div className="bg-gray-500 w-[100px] h-[100px] flex justify-center items-center text-white rounded-[50%]"></div>
       }
